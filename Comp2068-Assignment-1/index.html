@@ -112,7 +112,177 @@
                 </div>
             </div>
         </div>
-    </div>
+        <!--ANother side of the maze-->
+        <!--PLayer Chooses to Go Right (Phase 2)-->
+        <div id="right" class="step slide" data-x="1500">
+            <div class="slide-text">
+                <p></p>
+                <p>You see a Ladder lying on the floor</p>
+                <p>If you use the ladder and you can reach at the top and find out Right way</p>
+                <p>Also, you heard some noise there want to follow wispering</p>
+                </br>
+                <p> Want do you want to do?</p>
+                <p><a href="#ladder">USE LADDER</a></p>
+                <p>or</p>
+                <p><a href="#follow">FOLLOW WHISPERING</a></p>
+            </div>
+        </div>
+        <!--Selected Ladder From Right Side (Phase 3)-->
+        <div id="ladder" class="step slide" data-y="1500">
+            <div class="slide-text">
+                <p>Smart! You are good in using resources available to you </p>
+                <p>  Walls are to High it's not easy to climb </p>
+                <p> But you made it, and at top you found a Treasure.WoW.. </p>
+                <p> If you open a Treasure, you may find something Precious</p>
+                <p> You can Look around for Right Path</p>
+
+                <br />
+                <p> What you want to do?</p>
+                <p><a href="#open">OPEN IT</a></p>
+                <p>or</p>
+                <p><a href="#look">LOOK AROUND</a></p>
+            </div>
+
+        </div>
+
+        <!--Select to Open  A Treasure (Phase 4)-->
+        <div id="open" class="step slide" data-x="3000" data-y="2000">
+            <div class="slide-text">
+                <p> It was a trap there was nothing in the Treasure</p>
+                <p>  Treasure Contain Expolsive material, It Explodes</p>
+                <p> You got Killed</p>
+
+                <br />
+                <div class="menu">
+                    <a href="#intro">START OVER</a>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Chooses to Look around to Find Right Path (Phase 4)-->
+        <div id="look" class="step slide" data-x="2500" data-y="2500">
+            <div class="slide-text">
+                <p> There are lot of ways, but it is confusing to tell which is Right Way</p>
+                <p> Paths keep on Changing.. Wall Start Falling and you fell </p>
+                <p> You got Killed...</p>
+
+                <br />
+                <div class="menu">
+                    <a href="#intro">START OVER</a>
+                </div>
+            </div>
+
+        </div>
+
+        <!--Follow the Whispering in the Right -->
+        <!-- Another Phase -->
+        <div id="follow" class="step slide" data-x="1700" data-y="2150">
+            <div class="slide-text">
+                <p></p>
+                <p>After Following you saw a guy, who is injured and need help</p>
+                <p> He got Stucked into walls. For sake of Humanity do you want to help him</p>
+                <br />
+                <p> What do you want to do? </p>
+                <p><a href="#help">HELP</a></p>
+                <p>or</p>
+                <p><a href="#pass">PASS AROUND</a></p>
+            </div>
+
+        </div>
+        <!--HElping a Guy phase 2-->
+        <div id="help" class="step slide" data-x="2900" data-y="3100">
+            <div class="slide-text">
+                <p></p>
+                <p>Helping others is very good. You have rescued him.</p>
+                <p>You are real hero</p>
+                <p>After healing him, You come to Know that guy Know the Way to get out.</p>
+                <p> Want to come with him to Get Out from Here</p>
+                <br />
+                <p> What would you like to do? </p>
+                <p><a href="#go">GO WITH HIM</a></p>
+                <p>or</p>
+                <p><a href="#findWay">FIND YOUR OWN WAY</a></p>
+            </div>
+
+        </div>
+
+        <!--Passing Around from Guy Phase 3-->
+        <div id="pass" class="step slide" data-x="2200" data-y="2300">
+            <div class="slide-text">
+                <p>You should have to help that guy.</p>
+                <p>If you didn't help others, no one goona help you.</p>
+                <p> It is not easy to get out from maze. It's not your cup of tea</p>
+                <p> After moving forward, you got killed by Trap.</p>
+
+                <br />
+                <div class="menu">
+                    <a href="#intro">START OVER</a>
+                </div>
+            </div>
+
+        </div>
+        <!--Going with the guy  Phase 3-->
+        <div id="go" class="step slide" data-x="2800" data-y="1500">
+            <div class="slide-text">
+                <p>You really need a hand to get out from here.</p>
+                <p>You helped the guy, and now it's a guy's turn to help you</p>
+                <p> He know the ways to get out from there, after following little bit </p>
+                <p> You have reached to a point where you met with a Lion who is blocking the way for Exit</p>
+                <br />
+                <p> What would you like to do? </p>
+                <p><a href="#fightLion">FIGHT WITH LION</a></p>
+                <p>or</p>
+                <p><a href="#passQuitely">PASS QUITELY</a></p>
+            </div>
+
+        </div>
+
+        <!--Fighting with a Lion Together  (Player won here ) It is a last slide of the Game ..Phase 4-->
+        <div id="fightLion" class="step slide" data-y="3000">
+            <div class="slide-text">
+                <p>Oh, you keep on tackeling yourself from lion</p>
+                <p>The guy Found a Sword there and Handed over to you and You  killed the Lion </p>
+                <p> After killing it you get a key which is a for the exit door. </p>
+                <p> Congratulation you have cracked the maze and You are out of it.</p>
+                <br />
+                <p> Would You like to Play Again?</p>
+                <div class="menu">
+                    <a href="#intro">PLAY AGAIN</a>
+                </div>
+            </div>
+
+        </div>
+
+        <!--FIND Your own Way  Phase 3-->
+        <div id="findWay" class="step slide" data-x="2600" data-y="2800">
+            <div class="slide-text">
+                <p>In maze it is imposible to Find Right way alone.</p>
+                <p>You need a help, You got killed by a DeadFall Trap </p>
+
+                <br />
+                <div class="menu">
+                    <a href="#intro">START OVER</a>
+                </div>
+            </div>
+
+        </div>
+        <!--Passing Quietly from Lion  Phase 4-->
+        <div id="passQuitely" class="step slide" data-y="2800">
+            <div class="slide-text">
+                <p>Passing Quietly from a Lion in Impossible. </p>
+                <p>Lion saw you and you Started Running </p>
+                <p>You got Caught By lion and killed you.</p>
+
+                <br />
+                <div class="menu">
+                    <a href="#intro">START OVER</a>
+                </div>
+            </div>
+
+        </div>
+
+    </div>   
 
     <!-- JavaScript Section -->
     <script src="js/impress.js"></script>

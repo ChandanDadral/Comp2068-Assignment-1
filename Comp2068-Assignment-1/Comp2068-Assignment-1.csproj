@@ -69,16 +69,15 @@
     <Content Include="css\reset.css" />
     <Content Include="index.html" />
     <Content Include="js\impress.js" />
-    <Content Include="js\jScript.js" />
+    <Content Include="lib\audio\Maze 2.m4a" />
     <Content Include="lib\images\mazerunner11-5.jpg" />
+    <Content Include="mindmap\New-Mind-Map_3wsrtist.jpg" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="lib\audio\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

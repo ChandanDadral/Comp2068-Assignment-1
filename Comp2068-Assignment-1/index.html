@@ -1,16 +1,25 @@
-﻿<!DOCTYPE html>
+﻿<!--
+    @Chandan Dadral
+    This is a statergy gmae in which user have to think for the  steps 
+    It is a Maze Runner game where player has to find the right way to get out from the maze
+    @Version 1.4
+-->
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
     <title>Maze Runner</title>
     <link href="css/reset.css" rel="stylesheet" />
     <link href="css/main.css" rel="stylesheet" />
-    <script src="js/jScript.js"></script>
+   
 </head>
 <body>
     <div id="impress">
         <div id="intro" class="step slide">
             <div class="slide-text">
+                <!--Added a audio element in the begning of page which start just the once-->
+                <embed src="lib/audio/Maze 2.m4a" loop="false" autostart="true" hidden="true" />
                 <h1 id="maze"> Maze Runner</h1>
                 <p>You are stuck into maze!</p>
                 <p>You see lot of ways to go, you need to get out from here</p>
@@ -37,6 +46,7 @@
                 <p><a href="#bright">BRIGHT</a></p>
             </div>
         </div>
+       
         <!--Want to go To Dark Side (Pase 3)-->
         <div id="dark" class="step slide" data-x="-4000" data-y="-4000">
             <div class="slide-text">
@@ -60,7 +70,7 @@
                 <div class="menu">
                     <a href="#intro">START OVER</a>
                 </div>
-                <!--<embed src="lib/audio/Evil_Laugh_Male_6-Himan-1359990674.mp3" loop="false" autostart="true" hidden="true" />-->
+                
             </div>
         </div>
         <!--Player Choosed to run From Spider (Phase 3)-->
@@ -78,8 +88,9 @@
         <!--Player Choosed Bright Way (Pase 2)-->
         <div id="bright" class="step slide" data-x="-3000" data-y="-3000">
             <div class="slide-text">
-                <p>You keep on going in bright side and get Thirsty  </p>
-                <p>You found holy water there</p>
+                <p> You have Reached the Bight side, it is Cheerfull</p>
+                <p>You keep on going in bright side and you get Thristy and need something to Drink  </p>
+                <p>You found holy water there.</p>
 
                 <br />
                 <p>Want to drink it?</p>
@@ -92,8 +103,9 @@
         <!--Chooses to Drink Water From Bright Side (Pase 3)-->
         <div id="drink" class="step slide" data-x="-5700" data-y="5700">
             <div class="slide-text">
-                <p>It was mentioned as a holly water but actually it was poison  </p>
+                <p>It was mentioned as a holly water but actually it was poison. </p>
                 <p>When you Drunk it, your got killed  </p>
+                <p> It is a Maze, Watch what are you doing. Be careful while taking Decision</p>
 
                 <div class="menu">
                     <a href="#intro">START OVER</a>
@@ -148,7 +160,7 @@
         <!--Select to Open  A Treasure (Phase 4)-->
         <div id="open" class="step slide" data-x="3000" data-y="2000">
             <div class="slide-text">
-                <p> It was a trap there was nothing in the Treasure</p>
+                <p> It was a trap there was nothing precious was in the Treasure</p>
                 <p>  Treasure Contain Expolsive material, It Explodes</p>
                 <p> You got Killed</p>
 
@@ -193,9 +205,8 @@
         <!--HElping a Guy phase 2-->
         <div id="help" class="step slide" data-x="2900" data-y="3100">
             <div class="slide-text">
-                <p></p>
                 <p>Helping others is very good. You have rescued him.</p>
-                <p>You are real hero</p>
+                <p>You are real hero, you gave him a second life</p>
                 <p>After healing him, You come to Know that guy Know the Way to get out.</p>
                 <p> Want to come with him to Get Out from Here</p>
                 <br />

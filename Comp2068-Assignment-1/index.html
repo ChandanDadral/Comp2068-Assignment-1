@@ -3,6 +3,10 @@
     This is a statergy gmae in which user have to think for the  steps 
     It is a Maze Runner game where player has to find the right way to get out from the maze
     @Version 1.4
+    @last Modified - January 30, 2015
+    @version Description - Did Proper Commenting in this version and changed the layout of css and made little change in story of the game
+    also added sound file to the.
+
 -->
 
 <!DOCTYPE html>
@@ -14,12 +18,13 @@
     <link href="css/main.css" rel="stylesheet" />
    
 </head>
+ <!--Added a audio element in the begning of page which start just the once-->
+<embed type="audio/x-wav" src="lib/audio/Maze 2.m4a" loop="false" autoplay="false" hidden="true" autostart="false" />
 <body>
     <div id="impress">
         <div id="intro" class="step slide">
             <div class="slide-text">
-                <!--Added a audio element in the begning of page which start just the once-->
-                <embed src="lib/audio/Maze 2.m4a" loop="false" autostart="true" hidden="true" />
+               
                 <h1 id="maze"> Maze Runner</h1>
                 <p>You are stuck into maze!</p>
                 <p>You see lot of ways to go, you need to get out from here</p>
@@ -293,7 +298,7 @@
 
         </div>
 
-    </div>   
+    </div>   <!--Div End Here-->
 
     <!-- JavaScript Section -->
     <script src="js/impress.js"></script>
